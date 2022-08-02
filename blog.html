@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARY'S CHILD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>   
+    </nav>
+    <h1>Our Awardees & Online Programs For 2021</h1>
+    
+    </section>
+<!---------blog page content----------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.png">
+            <h2>Red Eagle and Blue Eagle Awardees</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Aspernatur dolore et quia? Provident magnam velit quidem laboriosam fuga numquam illum esse. 
+            Quasi doloribus, quia, commodi recusandae voluptate assumenda quis culpa tempora officiis ab praesentium nam ex dolore delectus et magni adipisci repellat fuga, 
+            excepturi cupiditate libero ullam facere. Animi, ab?</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Reiciendis eaque, velit exercitationem accusantium alias inventore autem perferendis quo molestiae non aspernatur sit dolor at voluptatum consectetur ipsum aliquam ad! 
+            Dolores aliquam saepe hic est repellendus voluptates eaque exercitationem, repellat deserunt placeat quidem, vel corporis fugiat doloribus omnis tempora deleniti quod magni commodi non nobis delectus voluptate aspernatur. 
+            Ullam deserunt molestiae commodi obcaecati facilis, nostrum, in illo vero velit corporis quisquam!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Reiciendis eaque, velit exercitationem accusantium alias inventore autem perferendis quo molestiae non aspernatur sit dolor at voluptatum consectetur ipsum aliquam ad! 
+            Dolores aliquam saepe hic est repellendus voluptates eaque exercitationem, repellat deserunt placeat quidem, vel corporis fugiat doloribus omnis tempora deleniti quod magni commodi non nobis delectus voluptate aspernatur. 
+            Ullam deserunt molestiae commodi obcaecati facilis, nostrum, in illo vero velit corporis quisquam!</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi similique, ad velit, fugiat nam vel accusantium laudantium voluptates temporibus, 
+            totam molestiae vero odio assumenda minima? Eligendi, laboriosam nobis! 
+            Sed, obcaecati!</p>
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+    
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+
+      
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Mathematics</span>
+                <span>27</span>
+            </div>
+            <div>
+                <span>English</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>Physics</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Chemistry</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Filipino</span>
+                <span>44</span>
+            </div>
+            <div>
+                <span>History</span>
+                <span>38</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vitae, 
+    corporis soluta a rerum itaque corrupti eius quod eveniet,<br> harum ratione consequatur, 
+    ducimus totam animi? Magnam quasi ea modi quia!</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>Made with <i class="fa fa-star-o" ></i> by Marc Paulo Delfin </p>
+</section>
+<!---------Javascript for toggle Menu----------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
